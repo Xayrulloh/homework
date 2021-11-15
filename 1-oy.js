@@ -1,4 +1,3 @@
-
 // 1 - misol without array, only numbers
 /*function sum(...num) {
     let sanoq = 0
@@ -92,8 +91,39 @@ const movies = [
 ]
 console.log(move(movies));*/
 
+//  ---------------------------------------------------------------------------
 
+// 1 - misol
+/*function twoSum(arr, target) {
+    for (a = 0; a <= arr.length; a++) {
+        for (b = 1; b <= arr.length; b++) {
+            if (target == arr[a] + arr[b]) {
+                return [a, b]
+            }
+        }
+    }
+}
+console.log(twoSum([2, 7, 11, 15], 9));*/
 
+//  2 - misol
+/*let array = [[1,2,1,21],[2,4,21,10],[34,2,1,12],[2,3,1,5],[42,1,1,3]];
+let sum = 0
+let summ = 99999999999999999999999999999999999999
+let index = 0
+let arr = []
+for (let a = 0; a < array.length; a++) {
+    sum = 0
+    for (b of array[a]) {
+        sum += b
+    }
+    if (summ > sum) {
+        summ = sum
+        index = a
+        arr = array[a]
+    }
+}
+console.log(arr);
+console.log(index);*/
 
 
 
